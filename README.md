@@ -53,3 +53,15 @@ Add it in your project.clj at the end of repositories:
            
 Step 2. Add the dependency
 	:dependencies [[com.github.ediMariyanto/toastMessages "Tag"]]		
+	
+	
+
+## Example
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        ToastMessages.setToast(this, "Show Toast", true)
+    }
+}
