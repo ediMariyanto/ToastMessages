@@ -57,11 +57,5 @@ Step 2. Add the dependency
 	
 
 ## Example
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        ToastMessages.setToast(this, "Show Toast", true)
-    }
-}
+  ToastMessages.setToast(this, "Show Toast", true)
+    
